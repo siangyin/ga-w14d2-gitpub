@@ -1,7 +1,7 @@
 html {
 	background-color: #bff5ff;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- color: slategray;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: slategray;
 }
 
 h1 {
@@ -16,22 +16,25 @@ h1 {
 	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
-nav{
- display: flex;
- justify-content: space-between;
+img {
+	max-width: 400px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
 }
 
-a{
- text-decoration: none;
+a {
+	text-decoration: none;
 }
 
-a:hover{
-color:pink;
+a:hover {
+	color: pink;
 }
 
 #heading {
 	background-color: slategray;
- color:white;
+	color: white;
 	text-align: center;
 }
 
@@ -47,9 +50,8 @@ li {
 	font-size: 20px;
 	font-weight: 200;
 	color: slategray;
-
 }
 
-footer{
- text-align: center;
+footer {
+	text-align: center;
 }
