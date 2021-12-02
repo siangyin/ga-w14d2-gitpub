@@ -1,5 +1,5 @@
 const express = require("express");
-const port = process.env.PORT || 5050;
+const port = process.env.PORT || 4000;
 const bodyParser = require("body-parser");
 const drinks = require(__dirname + "/models/drinks.js");
 const foods = require(__dirname + "/models/foods.js");
@@ -34,5 +34,5 @@ app.get("/foods/:id", function (req, res) {
 });
 
 app.listen(port, function () {
-	console.log("Server started on port 5000.");
+	console.log("Server started on port 4000.");
 });
