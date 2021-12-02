@@ -1,0 +1,15 @@
+
+ <%- include("partials/header")  -%> 
+<div class="box" id="heading">
+			<h2><%= title %></h2>
+		</div>
+
+		<ul class="box">
+			<% for (let i in list) { %>
+    			<% let item = list[i].name.charAt(0).toUpperCase() + list[i].name.slice(1).toLowerCase()%>
+				<a href="/<%= title %>/<%= i %>"><li class="item"><%= item %></li></a>
+			<%} %>
+
+		</ul>
+
+   <%- include("partials/footer")  -%> 
